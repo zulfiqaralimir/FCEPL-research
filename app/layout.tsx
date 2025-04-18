@@ -14,6 +14,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <li><Link href="/stock" className="text-blue-600">Stock</Link></li>
             <li><Link href="/financials" className="text-blue-600">Financials</Link></li>
             <li><Link href="/news" className="text-blue-600">News</Link></li>
+            <li><Link href="/company" className="text-blue-600">Dashboard</Link></li>
           </ul>
         </nav>
         <main className="p-6">{children}</main>
